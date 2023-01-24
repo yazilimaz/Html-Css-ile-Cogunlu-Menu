@@ -1,0 +1,159 @@
+HTML KODLARI
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML CSS Dersi12</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+<div class="menu1">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a></li>	
+<li><a href="">Ürünler</a></li>	
+<li><a href="">Galeri</a></li>
+<li><a href="">İletişim</a></li>		
+</ul>	
+</div>
+<div class="menu2">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a></li>	
+<li><a href="">Ürünler</a></li>	
+<li><a href="">Galeri</a></li>
+<li><a href="">İletişim</a></li>		
+</ul>	
+</div>
+<div class="menu3">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a></li>	
+<li><a href="">Ürünler</a></li>	
+<li><a href="">Galeri</a></li>
+<li><a href="">İletişim</a></li>		
+</ul>	
+</div>
+<div class="menu4">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a>
+<ul>
+<li><a href="">Şirket Tarihçesi</a></li>	
+<li><a href="">Yöneticilerimiz</a></li>	
+<li><a href="">Bir Sonraki Çalışanlarımız</a></li>	
+<li><a href="">Faalietlerimmiz</a></li>	
+</ul></li>
+<li><a href="">Hizmetlerimiz</a>
+<ul>
+<li><a href="">Web Tasarım </a></li>	
+<li><a href="">Hosting</a></li>	
+<li><a href="">Logo Tasarım</a></li>	
+<li><a href="">Danışmanlık</a></li>	
+</ul></li>
+<li><a href="">Referanslarımız</a></li>
+<li><a href="">İletişim</a></li>		
+</ul>	
+</div>
+
+<div class="menu5">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a>
+<ul>
+<li><a href="">Şirket Tarihçesi</a></li>	
+<li><a href="">Yöneticilerimiz</a></li>	
+<li><a href="">Bir Sonraki Çalışanlarımız</a></li>	
+<li><a href="">Faalietlerimmiz</a></li>	
+</ul></li>
+<li><a href="">Hizmetlerimiz</a>
+<ul>
+<li><a href="">Web Tasarım </a></li>	
+<li><a href="">Hosting</a></li>	
+<li><a href="">Logo Tasarım</a></li>	
+<li><a href="">Danışmanlık</a></li>	
+</ul></li>
+<li><a href="">Referanslarımız</a></li>
+<li><a href="">İletişim</a></li>		
+</ul>	
+</div>	
+
+</div>
+<div class="menu6">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a></li>	
+<li><a href="">Hizmetlerimiz</a></li>	
+<li><a href="">İletişim</a></li>		
+</ul>	
+</div>
+
+</div>
+<div class="menu7">
+<ul>
+<li><a href="">Ana Sayfa</a></li>	
+<li><a href="">Hakkımızda</a></li>	
+<li><a href="">Ürünlerimiz</a></li>	
+<li><a href="">Menüler</a></li>
+<li><a href="">Şubelerimiz</a></li>
+<li><a href="">İnsan kau=ynakları</a></li>
+<li><a href="">Bize ulaşın</a></li>
+</ul>	
+</div>
+
+
+
+
+
+</body>
+</html>
+
+CSS KODLARI
+
+.menu1{width: 130px; height: 160px; margin: 10px 0 0 0;}
+.menu1 ul{margin: 0; padding: 0; list-style: none; }
+.menu1 ul li a{display: block; width: 125px; height: 24px; background: #fcc; color: #930; font: bold 12px tahoma; text-decoration: none; padding: 8px 0 0 5px;}
+.menu1 ul li a:hover{color: #fff; background: #930;} 
+
+.menu2{width: 600px; height: 30px; margin: 30px 0 0 0;}
+.menu2 ul{margin: 0; padding: 0; list-style: none;}
+.menu2 ul li{float: left;}
+.menu2 ul li a{display: block; width: 120px; height: 24px; background: #fcc; color: #930; font: bold 12px tahoma; text-decoration: none; padding: 8px 0 0 0; text-align: center;}
+.menu2 ul li a:hover{color: #fff; background: #930;}
+
+.menu3{width: 510px; height: 32px; margin: 30px 0 0 0;}
+.menu3 ul{margin: 0; padding: 0; list-style: none;}
+.menu3 ul li{float: left;}
+.menu3 ul li a{display: block; background: #fcc; color: #930; font: bold 12px tahoma; text-decoration: none; padding: 8px 25px; text-align: center;}
+.menu3 ul li a:hover{color: #fff; background: #930;}
+
+.menu4{width: 152px; height:170px; margin: 30px 0 0 0;}
+.menu4 ul{margin: 0; padding: 0; list-style: none;}
+.menu4 ul li{position: relative;}
+.menu4 ul li a{display: block; width: 150px; background: #fcc; color: #930; font: bold 12px tahoma; text-decoration: none; padding: 9px 5px ; border: 1px solid #800;}
+.menu4 ul li a:hover{color: #fff; background: #930;}
+.menu4 ul li ul{display: none; position: absolute; left: 162px; top: 0;}
+.menu4 ul li:hover ul{ display: block; }
+
+.menu5{width: 610px; height:150px; margin: 50px 0 0 0;}
+.menu5 ul{margin: 0; padding: 0; list-style: none;}
+.menu5 ul li{float: left; position: relative;}
+.menu5 ul li a{display: block; width: 120px;  background: #fcc; color: #930; font: bold 12px tahoma; text-decoration: none;text-align: center; padding: 9px 0 ; border: 1px solid #800;}
+.menu5 ul li a:hover{color: #fff; background: #930;}
+.menu5 ul li ul{display: none; position: absolute; left: 0; top: 34px;}
+.menu5 ul li:hover ul{ display: block; }
+
+.menu6{width: 750px; height:30px; margin: 28px 0 0 0; border-bottom: 1px solid #aaa;}
+.menu6 ul{margin: 0; padding: 0; list-style: none;}
+.menu6 ul li{float: left;}
+.menu6 ul li a{display: block; width: 110px; height: 16px; text-decoration: none; color: #000; font: bold 12px tahoma; background: url(images/sekme.gif); padding: 7px 30px;}
+.menu6 ul li a:hover{color: #900;}
+
+.menu7{width: 688px; height:60px; margin: 30px 0 0 0;}
+.menu7 ul{margin: 0; padding: 0; list-style: none;}
+.menu7 ul li{float: left;}
+.menu7 ul li a{display: block; width: 98px; height: 60px; text-decoration: none; color: #000; font: bold 12px tahoma; background: url(images/sekme.gif); padding: 7px 30px;}
+
+
